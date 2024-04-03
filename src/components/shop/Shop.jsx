@@ -81,7 +81,7 @@ const Shop = (props) => {
     <div className="shop_block">
       <Routes>
         <Route
-          path="/"
+          path="/testformom"
           element={<Item items={items} addToCart={addToCart} />}
         />
         <Route path="/item/:id" element={<ItemDescription items={items} addToCart={addToCart} />} />
